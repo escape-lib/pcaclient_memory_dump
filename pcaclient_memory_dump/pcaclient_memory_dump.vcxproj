@@ -145,7 +145,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="memory.hpp" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="util.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pcaclient_memory_dump.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

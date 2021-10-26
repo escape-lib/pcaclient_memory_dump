@@ -1,6 +1,7 @@
 #include <iostream>
 #include "memory.hpp"
 #include "util.hpp"
+#include "resource.h"
 
 #define PCA_BLOCK_SZ 1024
 
